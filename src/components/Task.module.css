@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto 1.5rem;
+}
+
+.container span {
+    background: var(--gray-400);
+    color: var(--gray-100);
+    padding: 0 0.5rem;
+    border-radius: 70rem;
+    margin-left: 0.5rem;
+}
+
+.strongOne {
+    color: var(--blue);
+}
+
+.strongTwo {
+    color: var(--purple);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.01em solid var(--gray-400);
+    border-radius: 8px;
+    color: var(--gray-400);
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.content strong {
+    margin-top: 1rem;
+    color: var(--gray-300);
+    line-height: 1rem;
+}
+
+.content p {
+    color: var(--gray-300);
+    line-height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.form input {
+    width: 100%;
+    max-width: 39.875rem;
+    border-radius: 8px;
+    height: 3.375rem;
+    border: 0;
+    padding: 1rem;
+
+    color: var(--gray-100);
+    background: var(--gray-400);
+    line-height: 1rem;
+}
+
+.form button {
+    margin-left: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: bold;
+    line-height: 1rem;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.form button:hover {
+    background: var(--blue);
+}
+
+.form button:disabled {
+    cursor: auto;
+    opacity: 0.7;
+}
+
+.form button:disabled:hover {
+    background: var(--blue-dark);
+}
